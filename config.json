@@ -1,0 +1,169 @@
+{
+  "clientId": "1301569525422227496",
+  "guildId": "1143976452593832077",
+  "autoRole": {
+    "userRoleId": "auto_user_role_id",
+    "botRoleId": "1145217673307893861"
+  },
+  "ticketSettings": {
+    "ticketSetup": {
+      "embedColor": "#4dff00",
+      "embedTitle": "Ticket System Setup",
+      "embedDescription": "Click one of the buttons below to create a ticket.",
+      "embedImage": ""
+    },
+    "ticketGroups": {
+      "group_1730612249589": {
+        "buttonCustomId": "none",
+        "buttonStyle": "Primary",
+        "ticketCategoryId": "1302507591166988348",
+        "supportRoleId": "1143976452593832081",
+        "image": "",
+        "buttonLabel": "support"
+      }
+    }
+  },
+  "giveaways": {
+    "enabled": "true"
+  },
+  "autoResponders": [
+    {
+      "trigger": "hi",
+      "reply": "hi {{user}}",
+      "mentionUser": true
+    }
+  ],
+  "protection": {
+    "allowedGuildId": "server_id",
+    "logChannelId": "channel_id",
+    "whitelistRoles": [
+      "ROLE_ID_1",
+      "ROLE_ID_2"
+    ],
+    "antispam": {
+      "messageCount": 2,
+      "time": 10000,
+      "timeoutDuration": 60000,
+      "active": "false",
+      "deleteMessages": "false",
+      "timeout": "false"
+    },
+    "antilinks": {
+      "actions": {
+        "timeoutDuration": 60000,
+        "timeout": "false",
+        "kick": "false",
+        "ban": "false"
+      },
+      "active": "false",
+      "deleteMessages": "false"
+    },
+    "channelMonitoring": {
+      "maxChannelChanges": 2,
+      "timeFrame": 60000,
+      "action": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "roleMonitoring": {
+      "maxRoleChanges": 3,
+      "timeFrame": 60000,
+      "action": "timeout",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "kickMonitoring": {
+      "maxKicks": 1,
+      "timeFrame": 60000,
+      "action": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "banMonitoring": {
+      "maxBans": 1,
+      "timeFrame": 60000,
+      "action": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "botMonitoring": {
+      "action": "kick",
+      "botAction": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "roleEditMonitoring": {
+      "maxEdits": 3,
+      "timeFrame": 60000,
+      "action": "timeout",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "serverEditMonitoring": {
+      "maxEdits": 3,
+      "timeFrame": 60000,
+      "action": "timeout",
+      "timeoutDuration": 600000,
+      "active": "false"
+    }
+  },
+  "commands": {
+    "userinfo": true,
+    "serverinfo": true,
+    "avatar": true,
+    "banner": true,
+    "clear": true,
+    "timeout": true,
+    "kick": true,
+    "ban": true,
+    "unban": true,
+    "role": true,
+    "rtimeout": true,
+    "lock": true,
+    "unlock": true,
+    "setnick": true,
+    "mute": true,
+    "unmute": true,
+    "move": true,
+    "giveawaySetup": true
+  },
+  "logger": {
+    "enabled": true,
+    "events": {
+      "nicknameChangelog": "1218800362186735637",
+      "nicknameChange": true,
+      "channelCreatelog": "1218800362186735637",
+      "channelCreate": true,
+      "channelDeletelog": "1218800362186735637",
+      "channelDelete": true,
+      "channelUpdatelog": "1218800362186735637",
+      "channelUpdate": true,
+      "createrolelog": "1218800362186735637",
+      "roleCreate": true,
+      "deleterolelog": "1218800362186735637",
+      "roleDelete": true,
+      "roleUpdateLogChannelId": "1218800362186735637",
+      "roleUpdate": true,
+      "roleMemberLogChannelId": "1218800362186735637",
+      "roleMember": true,
+      "messageDeleteLogChannelId": "1218800362186735637",
+      "messageDelete": true,
+      "messageEditLogChannelId": "1218800362186735637",
+      "messageEdit": true,
+      "memberKicklog": "1218800362186735637",
+      "memberKick": true,
+      "memberBanlog": "1218800362186735637",
+      "memberBan": true,
+      "memberUnbanlog": "1218800362186735637",
+      "memberUnban": true,
+      "memberJoinlog": "1218800362186735637",
+      "memberJoin": true,
+      "memberLeftlog": "1218800362186735637",
+      "memberLeft": true,
+      "voiceChannellog": "1218800362186735637",
+      "voiceChannel": true,
+      "voiceChannelUpdatelog": "1218800362186735637",
+      "voiceChannelUpdate": true
+    }
+  }
+}
